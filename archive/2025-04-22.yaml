@@ -1,0 +1,46 @@
+date: '2025-04-22'
+papers:
+- title: "IPBench: Benchmarking the Knowledge of Large Language Models in\n  Intellectual\
+    \ Property"
+  authors:
+  - Qiyao Wang
+  - Guhong Chen
+  - Hongbo Wang
+  - Huaren Liu
+  - Minghui Zhu
+  - Zhifei Qin
+  - Linwei Li
+  - Yilin Yue
+  - Shiqiang Wang
+  - Jiayan Li
+  - Yihang Wu
+  - Ziqiang Liu
+  - Longze Chen
+  - Run Luo
+  - Liyang Fan
+  - Jiaming Li
+  - Lei Zhang
+  - Kan Xu
+  - Hongfei Lin
+  - Hamid Alinejad-Rokny
+  - Shiwen Ni
+  - Yuan Lin
+  - Min Yang
+  summary: Intellectual Property (IP) is a unique domain that integrates technical
+    and legal knowledge, making it inherently complex and knowledge-intensive. As
+    large language models (LLMs) continue to advance, they show great potential for
+    processing IP tasks, enabling more efficient analysis, understanding, and generation
+    of IP-related content. However, existing datasets and benchmarks either focus
+    narrowly on patents or cover limited aspects of the IP field, lacking alignment
+    with real-world scenarios. To bridge this gap, we introduce the first comprehensive
+    IP task taxonomy and a large, diverse bilingual benchmark, IPBench, covering 8
+    IP mechanisms and 20 tasks. This benchmark is designed to evaluate LLMs in real-world
+    intellectual property applications, encompassing both understanding and generation.
+    We benchmark 16 LLMs, ranging from general-purpose to domain-specific models,
+    and find that even the best-performing model achieves only 75.8% accuracy, revealing
+    substantial room for improvement. Notably, open-source IP and law-oriented models
+    lag behind closed-source general-purpose models. We publicly release all data
+    and code of IPBench and will continue to update it with additional IP-related
+    tasks to better reflect real-world challenges in the intellectual property domain.
+  link: http://arxiv.org/abs/2504.15524v1
+  published: '2025-04-22T02:00:41Z'

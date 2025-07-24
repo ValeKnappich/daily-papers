@@ -1,0 +1,28 @@
+date: '2025-07-15'
+papers:
+- title: Technological Complexity Based on Japanese Patent Data
+  authors:
+  - Rintaro Karashima
+  - Hiroyasu Inoue
+  summary: As international competition intensifies in technologies, nations need
+    to identify key technologies to foster innovation. However, the identification
+    is challenging due to the independent and inherently complex nature of technologies.
+    Traditionally, regional analyses of technological portfolios have been limited
+    to binary evaluations, indicating merely whether a region specializes in a technology,
+    or relying on the average Technological Complexity Index (TCI) of the specialized
+    technologies. This study proposes that evaluating TCI at the corporate level could
+    provide finer granularity and more detailed insights. To address the underutilization
+    of corporate-level TCI assessments in Japan, this study applies the Technological
+    Complexity Index using carefully processed patent data spanning fiscal years 1981
+    to 2010. Specifically, we analyze a bipartite network composed of 1,938 corporations
+    connected to technological fields categorized into either 35 or 124 classifications.
+    Our findings quantitatively characterize the ubiquity and sophistication of each
+    technological field, reveal detailed technological trends reflecting broader societal
+    contexts, and demonstrate methodological stability even when employing finer technological
+    classifications. Additionally, our corporate-level approach allows consistent
+    comparisons across different regions and technological fields, clarifying regional
+    advantages in specific technologies. This refined analytical framework offers
+    policymakers and researchers robust, targeted insights, thereby significantly
+    contributing to innovation strategy formulation in Japan.
+  link: http://arxiv.org/abs/2504.11932v4
+  published: '2025-04-16T10:12:00Z'

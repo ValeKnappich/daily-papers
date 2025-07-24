@@ -1,0 +1,73 @@
+date: '2025-04-16'
+papers:
+- title: 'The Role of Patents: Incentivizing Innovation or Hindering Progress?'
+  authors:
+  - Gaetan de Rassenfosse
+  summary: This article examines the complex trade-offs inherent in the patent system,
+    exploring whether patents truly incentivize innovation or inadvertently hinder
+    progress. It traces the historical evolution of patent rights from their origins
+    in Renaissance Venice to the modern framework enshrined in constitutional and
+    international law. By balancing the exclusivity granted to inventors with the
+    need for public access to knowledge, the article highlights how patents stimulate
+    R&D investments while sometimes limiting follow-on innovation due to prolonged
+    monopolies. It discusses the economic rationales for patent protection, such as
+    increasing private returns to encourage invention, against criticisms that patents
+    restrict the free flow of ideas essential for collective progress. Ultimately,
+    the review argues that although patents are designed to reward creativity and
+    secure economic benefits, they remain a contentious instrument whose benefits
+    and limitations must be carefully weighed in policy debates.
+  link: http://arxiv.org/abs/2412.14370v3
+  published: '2024-12-18T22:08:29Z'
+- title: What Proportion of Knowledge is Patented?
+  authors:
+  - Gaetan de Rassenfosse
+  summary: This article examines the proportion of technical knowledge that is eventually
+    patented and discusses implications for innovation. Drawing from economic theory
+    and information science, the study considers a continuum from raw data to applied
+    understanding, while distinguishing between patentable inventions and other types
+    of knowledge. The article explains that although the patent system is designed
+    to incentivize the creation of economically valuable technology, only a small
+    fraction of patentable inventions receive patent protection. Empirical evidence
+    from surveys and historical data reveal that patenting remains an exception rather
+    than a rule in many, but not all, industries. Furthermore, the article explores
+    the trade-offs inherent in public disclosure requirements in patent law, which
+    facilitate knowledge dissemination and may aid competitors. In doing so, it highlights
+    the critical balance between rewarding inventors and preserving the free flow
+    of knowledge, ultimately underscoring the complex role patents play in modern
+    innovation ecosystems.
+  link: http://arxiv.org/abs/2501.18043v3
+  published: '2025-01-29T23:13:06Z'
+- title: Why do firms patent?
+  authors:
+  - Gaetan de Rassenfosse
+  summary: Firms' decisions to patent innovations involve a complex evaluation of
+    costs, benefits, and strategic considerations. This article explores the economic
+    and practical factors that influence whether companies seek patent protection.
+    It discusses explicit monetary costs--such as legal fees, filing, and international
+    expenses--and non-monetary costs related to public disclosure. Benefits include
+    the provision of exclusion rights that secure returns and protect competitive
+    advantages. Additionally, firms use patents as strategic tools to block rivals,
+    strengthen bargaining positions, signal innovation quality, and attract investment.
+    The analysis also considers alternative protection strategies like secrecy, particularly
+    for small enterprises or industries where disclosure is detrimental.
+  link: http://arxiv.org/abs/2503.11555v3
+  published: '2025-03-14T16:22:50Z'
+- title: What is patent quality?
+  authors:
+  - Gaetan de Rassenfosse
+  summary: 'Patent quality is a critical yet complex concept of interest to inventors,
+    legal experts, and policymakers alike. This article demystifies patent quality
+    by examining its various dimensions and definitions. It begins by discussing invention
+    quality, emphasizing that the notion of ''technological superiority'' is often
+    too abstract to capture practical impact. The work distinguishes between incremental
+    and radical innovations, highlighting that inventions can be evaluated by improvements
+    over previous technologies and their economic potential. Four definitions of patent
+    quality are explored: one based on invention quality, another linking quality
+    with economic value, a third focusing on drafting clarity, and a fourth measuring
+    compliance with legal standards. The article explains that high-quality patents
+    may not necessarily protect valuable inventions and that weak patents can hold
+    significant economic value due to legal advantages. This accessible review provides
+    a comprehensive framework that benefits a broad audience interested in innovation
+    policy and intellectual property.'
+  link: http://arxiv.org/abs/2504.08785v2
+  published: '2025-04-05T21:11:04Z'

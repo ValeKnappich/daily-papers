@@ -1,0 +1,28 @@
+date: '2025-05-27'
+papers:
+- title: "Research on feature fusion and multimodal patent text based on graph\n \
+    \ attention network"
+  authors:
+  - Zhenzhen Song
+  - Ziwei Liu
+  - Hongji Li
+  summary: Aiming at the problems of cross-modal feature fusion, low efficiency of
+    long text modeling and lack of hierarchical semantic coherence in patent text
+    semantic mining, this study proposes HGM-Net, a deep learning framework that integrates
+    Hierarchical Comparative Learning (HCL), Multi-modal Graph Attention Network (M-GAT)
+    and Multi-Granularity Sparse Attention (MSA), which builds a dynamic mask, contrast
+    and cross-structural similarity constraints on the word, sentence and paragraph
+    hierarchies through HCL. Contrast and cross-structural similarity constraints
+    are constructed at the word and paragraph levels by HCL to strengthen the local
+    semantic and global thematic consistency of patent text; M-GAT models patent classification
+    codes, citation relations and text semantics as heterogeneous graph structures,
+    and achieves dynamic fusion of multi-source features by cross-modal gated attention;
+    MSA adopts a hierarchical sparsity strategy to optimize the computational efficiency
+    of long text modeling at word, phrase, sentence and paragraph granularity. Experiments
+    show that the framework demonstrates significant advantages over existing deep
+    learning methods in tasks such as patent classification and similarity matching,
+    and provides a solution with both theoretical innovation and practical value for
+    solving the problems of patent examination efficiency improvement and technology
+    relevance mining.
+  link: http://arxiv.org/abs/2505.20188v1
+  published: '2025-05-26T16:32:43Z'

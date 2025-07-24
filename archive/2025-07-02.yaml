@@ -1,0 +1,23 @@
+date: '2025-07-02'
+papers:
+- title: "Agent Ideate: A Framework for Product Idea Generation from Patents Using\n\
+    \  Agentic AI"
+  authors:
+  - Gopichand Kanumolu
+  - Ashok Urlana
+  - Charaka Vinayak Kumar
+  - Bala Mallikarjunarao Garlapati
+  summary: 'Patents contain rich technical knowledge that can inspire innovative product
+    ideas, yet accessing and interpreting this information remains a challenge. This
+    work explores the use of Large Language Models (LLMs) and autonomous agents to
+    mine and generate product concepts from a given patent. In this work, we design
+    Agent Ideate, a framework for automatically generating product-based business
+    ideas from patents. We experimented with open-source LLMs and agent-based architectures
+    across three domains: Computer Science, Natural Language Processing, and Material
+    Chemistry. Evaluation results show that the agentic approach consistently outperformed
+    standalone LLMs in terms of idea quality, relevance, and novelty. These findings
+    suggest that combining LLMs with agentic workflows can significantly enhance the
+    innovation pipeline by unlocking the untapped potential of business idea generation
+    from patent data.'
+  link: http://arxiv.org/abs/2507.01717v1
+  published: '2025-07-02T13:47:17Z'

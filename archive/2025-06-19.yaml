@@ -1,0 +1,51 @@
+date: '2025-06-19'
+papers:
+- title: "Hierarchical Multi-Positive Contrastive Learning for Patent Image\n  Retrieval"
+  authors:
+  - Kshitij Kavimandan
+  - Angelos Nalmpantis
+  - Emma Beauxis-Aussalet
+  - Robert-Jan Sips
+  summary: Patent images are technical drawings that convey information about a patent's
+    innovation. Patent image retrieval systems aim to search in vast collections and
+    retrieve the most relevant images. Despite recent advances in information retrieval,
+    patent images still pose significant challenges due to their technical intricacies
+    and complex semantic information, requiring efficient fine-tuning for domain adaptation.
+    Current methods neglect patents' hierarchical relationships, such as those defined
+    by the Locarno International Classification (LIC) system, which groups broad categories
+    (e.g., "furnishing") into subclasses (e.g., "seats" and "beds") and further into
+    specific patent designs. In this work, we introduce a hierarchical multi-positive
+    contrastive loss that leverages the LIC's taxonomy to induce such relations in
+    the retrieval process. Our approach assigns multiple positive pairs to each patent
+    image within a batch, with varying similarity scores based on the hierarchical
+    taxonomy. Our experimental analysis with various vision and multimodal models
+    on the DeepPatent2 dataset shows that the proposed method enhances the retrieval
+    results. Notably, our method is effective with low-parameter models, which require
+    fewer computational resources and can be deployed on environments with limited
+    hardware.
+  link: http://arxiv.org/abs/2506.13496v3
+  published: '2025-06-16T13:53:02Z'
+- title: "Pap2Pat: Benchmarking Outline-Guided Long-Text Patent Generation with\n\
+    \  Patent-Paper Pairs"
+  authors:
+  - Valentin Knappich
+  - Simon Razniewski
+  - Anna Hätty
+  - Annemarie Friedrich
+  summary: Dealing with long and highly complex technical text is a challenge for
+    Large Language Models (LLMs), which still have to unfold their potential in supporting
+    expensive and timeintensive processes like patent drafting. Within patents, the
+    description constitutes more than 90% of the document on average. Yet, its automatic
+    generation remains understudied. When drafting patent applications, patent attorneys
+    typically receive invention reports (IRs), which are usually confidential, hindering
+    research on LLM-supported patent drafting. Often, prepublication research papers
+    serve as IRs. We leverage this duality to build PAP2PAT, an open and realistic
+    benchmark for patent drafting consisting of 1.8k patent-paper pairs describing
+    the same inventions. To address the complex longdocument patent generation task,
+    we propose chunk-based outline-guided generation using the research paper as invention
+    specification. Our extensive evaluation using PAP2PAT and a human case study show
+    that LLMs can effectively leverage information from the paper, but still struggle
+    to provide the necessary level of detail. Fine-tuning leads to more patent-style
+    language, but also to more hallucination. We release our data and code https://github.com/boschresearch/Pap2Pat.
+  link: http://arxiv.org/abs/2410.07009v3
+  published: '2024-10-09T15:52:48Z'

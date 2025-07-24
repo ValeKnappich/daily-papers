@@ -1,0 +1,51 @@
+date: '2025-06-27'
+papers:
+- title: "DAPFAM: A Domain-Aware Patent Retrieval Dataset Aggregated at the Family\n\
+    \  Level"
+  authors:
+  - Iliass Ayaou
+  - Denis Cavallucci
+  - Hicham Chibane
+  summary: 'In the landscape of publicly available patent retrieval datasets, the
+    need for explicit indomain and out-of-domain labeling, multi-jurisdiction coverage,
+    balanced query domain representation and manageable sizes that support sub document
+    level experiments on moderate computational resources is often overlooked. To
+    address these gaps, we propose DAPFAM, a new open access domain-aware patent retrieval
+    dataset constructed at the simple-family level. The dataset contains 1,247 domain
+    balanced full text query families and 45,336 full text target families. The dataset
+    is enriched by clear relevance judgments (forward/backward citations as positive
+    links, random negatives), as well as explicit in-domain or out-of-domain relationships
+    via a novel proposed labelling scheme based on via International Patent Classification
+    (IPC) codes, resulting in 49,869 evaluation pairs. The dataset is multi jurisdictional,
+    requires little to no preprocessing for retrieval evaluation, and remains of a
+    size manageable for entities with limited ressources allowing for sub document
+    level retrieval experiments without excessive computational costs. We describe
+    our three-step data-curation pipeline, present comprehensive dataset statistics,
+    and provide baseline experiments using lexical and neural retrieval methods. Our
+    baseline experiments highlight significant challenges in crossdomain patent retrieval.
+    The dataset will be publicly available (for now the access link is this repository:
+    https://osf.io/vbyzd/?view_only=1a40242e0d1941a58aa854af3e50cf6b).'
+  link: http://arxiv.org/abs/2506.22141v1
+  published: '2025-06-27T11:34:51Z'
+- title: 'A Survey on Patent Analysis: From NLP to Multimodal AI'
+  authors:
+  - Homaira Huda Shomee
+  - Zhu Wang
+  - Sathya N. Ravi
+  - Sourav Medya
+  summary: Recent advances in Pretrained Language Models (PLMs) and Large Language
+    Models (LLMs) have demonstrated transformative capabilities across diverse domains.
+    The field of patent analysis and innovation is not an exception, where natural
+    language processing (NLP) techniques presents opportunities to streamline and
+    enhance important tasks -- such as patent classification and patent retrieval
+    -- in the patent cycle. This not only accelerates the efficiency of patent researchers
+    and applicants, but also opens new avenues for technological innovation and discovery.
+    Our survey provides a comprehensive summary of recent NLP-based methods -- including
+    multimodal ones -- in patent analysis. We also introduce a novel taxonomy for
+    categorization based on tasks in the patent life cycle, as well as the specifics
+    of the methods. This interdisciplinary survey aims to serve as a comprehensive
+    resource for researchers and practitioners who work at the intersection of NLP,
+    Multimodal AI, and patent analysis, as well as patent offices to build efficient
+    patent systems.
+  link: http://arxiv.org/abs/2404.08668v3
+  published: '2024-04-02T20:44:06Z'

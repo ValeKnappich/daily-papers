@@ -1,0 +1,54 @@
+name: Daily Papers Scheduler
+
+on:
+  schedule:
+    - cron: '0 0 */1 * *' # Placeholder, will be set dynamically
+  workflow_dispatch:
+
+jobs:
+  run-daily-papers:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests pyyaml
+
+      - name: Run get_daily_papers.py
+        run: python get_daily_papers.py
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          cache: 'npm'
+          cache-dependency-path: ui/package.json
+
+      - name: Install UI dependencies
+        run: |
+          cd ui
+          npm ci
+
+      - name: Build and export static site
+        run: |
+          cd ui
+          npm run build
+          npm run export
+
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./ui/out
+          publish_branch: gh-pages
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com

@@ -1,0 +1,24 @@
+date: '2025-04-24'
+papers:
+- title: 'Natural Language Processing in the Patent Domain: A Survey'
+  authors:
+  - Lekang Jiang
+  - Stephan Goetz
+  summary: Patents, which encapsulate crucial technical and legal information in text
+    form and referenced drawings, present a rich domain for natural language processing
+    (NLP) applications. As NLP technologies evolve, large language models (LLMs) have
+    demonstrated outstanding capabilities in general text processing and generation
+    tasks. However, the application of LLMs in the patent domain remains under-explored
+    and under-developed due to the complexity of patents, particularly their language
+    and legal framework. Understanding the unique characteristics of patent documents
+    and related research in the patent domain becomes essential for researchers to
+    apply these tools effectively. Therefore, this paper aims to equip NLP researchers
+    with the essential knowledge to navigate this complex domain efficiently. We introduce
+    the relevant fundamental aspects of patents to provide solid background information.
+    In addition, we systematically break down the structural and linguistic characteristics
+    unique to patents and map out how NLP can be leveraged for patent analysis and
+    generation. Moreover, we demonstrate the spectrum of text-based and multimodal
+    patent-related tasks, including nine patent analysis and four patent generation
+    tasks.
+  link: http://arxiv.org/abs/2403.04105v3
+  published: '2024-03-06T23:17:16Z'
