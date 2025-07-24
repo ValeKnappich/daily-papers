@@ -37,7 +37,7 @@ export default async function Home() {
               <div className="prose dark:prose-invert border rounded p-4 bg-white dark:bg-zinc-900">
                 {archiveData.papers.map((paper, i) => (
                   <div key={i} className="mb-8">
-                    <h3 className="text-lg font-semibold mb-1">{i + 1}. {paper.title}</h3>
+                    <h3 className="text-lg font-semibold mb-1">{paper.title}</h3>
                     <div className="text-sm text-gray-600 mb-1"><b>Authors:</b> {paper.authors && paper.authors.join(', ')}</div>
                     <div className="text-sm text-gray-600 mb-1"><b>Published:</b> {paper.published}</div>
                     <div className="text-sm text-gray-600 mb-2"><b>Link:</b> <a href={paper.link} className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">{paper.link}</a></div>

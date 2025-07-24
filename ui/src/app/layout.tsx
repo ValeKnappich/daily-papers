@@ -4,8 +4,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 
+
 import ArchiveDropdown from "./ArchiveDropdown";
 import Link from "next/link";
+import Image from "next/image";
+import { repoName } from "../../next.config";
 
 
 export const metadata: Metadata = {
@@ -24,19 +27,16 @@ export default function RootLayout({
         <header className="w-full py-4 border-b border-zinc-200 dark:border-zinc-800 mb-8">
           <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <img src="/favicon.png" alt="favicon" width={28} height={28} className="rounded" />
+              <Image src={`/${repoName}/favicon.png`} alt="favicon" width={28} height={28} className="rounded" />
+              {/* <img src="/favicon.png" alt="favicon" width={28} height={28} className="rounded" /> */}
               <span className="font-bold text-lg tracking-tight">Daily Papers</span>
             </Link>
             <div className="flex items-center gap-4">
               <ArchiveDropdown />
-              <a href="https://github.com/kvn2fe/daily-papers" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">GitHub</a>
             </div>
           </div>
         </header>
         <main>{children}</main>
-        <footer className="w-full py-6 border-t border-zinc-200 dark:border-zinc-800 mt-12 text-center text-xs text-zinc-500">
-          &copy; {new Date().getFullYear()} Daily Papers. All rights reserved.
-        </footer>
       </body>
     </html>
   );
