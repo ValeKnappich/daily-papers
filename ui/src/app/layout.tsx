@@ -6,8 +6,6 @@ import "./globals.css";
 
 import ArchiveDropdown from "./ArchiveDropdown";
 import Link from "next/link";
-import Image from "next/image";
-
 
 
 export const metadata: Metadata = {
@@ -26,7 +24,7 @@ export default function RootLayout({
         <header className="w-full py-4 border-b border-zinc-200 dark:border-zinc-800 mb-8">
           <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <Image src="/favicon.ico" alt="favicon" width={28} height={28} className="rounded" />
+              <img src="/favicon.png" alt="favicon" width={28} height={28} className="rounded" />
               <span className="font-bold text-lg tracking-tight">Daily Papers</span>
             </Link>
             <div className="flex items-center gap-4">
