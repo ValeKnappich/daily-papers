@@ -1,5 +1,0 @@
-arxiv:
-  enabled: true
-  query: "ti:patent OR ti:\"intellectual property\""
-  max_results: 9999
-  interval_days: 1
