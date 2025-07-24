@@ -3,6 +3,9 @@ name: Daily Papers Scheduler
 on:
   schedule:
     - cron: '0 0 */1 * *' # Placeholder, will be set dynamically
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
