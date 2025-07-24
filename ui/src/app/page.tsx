@@ -22,7 +22,7 @@ export default async function Home() {
 
   return (
     <main className="max-w-6xl mx-auto py-10 px-4">
-      <h1 className="text-2xl font-extrabold mb-8 tracking-tight text-center">All Days' Papers</h1>
+      <h1 className="text-2xl font-extrabold mb-8 tracking-tight text-center">All Days&apos; Papers</h1>
       {dates.length === 0 && (
         <p className="text-gray-500">No papers found.</p>
       )}

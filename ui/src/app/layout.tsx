@@ -2,7 +2,11 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+
+
 import ArchiveDropdown from "./ArchiveDropdown";
+import Link from "next/link";
+import Image from "next/image";
 
 
 
@@ -21,10 +25,10 @@ export default function RootLayout({
       <body className="bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 min-h-screen">
         <header className="w-full py-4 border-b border-zinc-200 dark:border-zinc-800 mb-8">
           <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <img src="/favicon.ico" alt="favicon" width={28} height={28} className="rounded" />
+            <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+              <Image src="/favicon.ico" alt="favicon" width={28} height={28} className="rounded" />
               <span className="font-bold text-lg tracking-tight">Daily Papers</span>
-            </a>
+            </Link>
             <div className="flex items-center gap-4">
               <ArchiveDropdown />
               <a href="https://github.com/kvn2fe/daily-papers" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">GitHub</a>
