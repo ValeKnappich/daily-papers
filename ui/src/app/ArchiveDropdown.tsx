@@ -6,7 +6,9 @@ const ArchiveDropdown: React.FC = () => {
   const [open, setOpen] = React.useState(false);
   const [dates, setDates] = React.useState<string[]>([]);
   React.useEffect(() => {
-    fetch("/api/archive-dates")
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "/daily-papers";
+    const url = `${basePath}/api/archive-dates`;
+    fetch(url)
       .then((res) => res.json())
       .then((data) => setDates(data.dates || []));
   }, []);

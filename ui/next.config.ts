@@ -1,12 +1,13 @@
 import type { NextConfig } from "next";
 
+const repoName = process.env.NEXT_PUBLIC_BASE_PATH ? process.env.NEXT_PUBLIC_BASE_PATH.replace(/^\//, "") : "daily-papers";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || `/${repoName}`;
+const assetPrefix = process.env.NEXT_PUBLIC_BASE_PATH ? `${process.env.NEXT_PUBLIC_BASE_PATH}/` : `/${repoName}/`;
 
-// Update these if your repo is not served from the root (e.g., /<repo-name>)
-export const repoName = "daily-papers";
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
+  basePath,
+  assetPrefix,
   images: {
     unoptimized: true,
   },
