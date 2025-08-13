@@ -1,0 +1,37 @@
+date: '2025-08-03'
+papers:
+- title: "RouteMark: A Fingerprint for Intellectual Property Attribution in\n  Routing-based\
+    \ Model Merging"
+  authors:
+  - Xin He
+  - Junxi Shen
+  - Zhenheng Tang
+  - Xiaowen Chu
+  - Bo Li
+  - Ivor W. Tsang
+  - Yew-Soon Ong
+  summary: 'Model merging via Mixture-of-Experts (MoE) has emerged as a scalable solution
+    for consolidating multiple task-specific models into a unified sparse architecture,
+    where each expert is derived from a model fine-tuned on a distinct task. While
+    effective for multi-task integration, this paradigm introduces a critical yet
+    underexplored challenge: how to attribute and protect the intellectual property
+    (IP) of individual experts after merging. We propose RouteMark, a framework for
+    IP protection in merged MoE models through the design of expert routing fingerprints.
+    Our key insight is that task-specific experts exhibit stable and distinctive routing
+    behaviors under probing inputs. To capture these patterns, we construct expert-level
+    fingerprints using two complementary statistics: the Routing Score Fingerprint
+    (RSF), quantifying the intensity of expert activation, and the Routing Preference
+    Fingerprint (RPF), characterizing the input distribution that preferentially activates
+    each expert. These fingerprints are reproducible, task-discriminative, and lightweight
+    to construct. For attribution and tampering detection, we introduce a similarity-based
+    matching algorithm that compares expert fingerprints between a suspect and a reference
+    (victim) model. Extensive experiments across diverse tasks and CLIP-based MoE
+    architectures show that RouteMark consistently yields high similarity for reused
+    experts and clear separation from unrelated ones. Moreover, it remains robust
+    against both structural tampering (expert replacement, addition, deletion) and
+    parametric tampering (fine-tuning, pruning, permutation), outperforming weight-
+    and activation-based baseliness. Our work lays the foundation for RouteMark as
+    a practical and broadly applicable framework for IP verification in MoE-based
+    model merging.'
+  link: http://arxiv.org/abs/2508.01784v1
+  published: '2025-08-03T14:51:58Z'

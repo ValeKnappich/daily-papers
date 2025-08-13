@@ -1,2 +1,23 @@
 date: '2025-05-21'
-papers: []
+papers:
+- title: "Open Science, Open Innovation? The Role of Open Access in Patenting\n  Activity"
+  authors:
+  - Abdelghani Maddi
+  - Ahmad Yaman Abdin
+  - Francesco Fdp de Pretis
+  summary: Scientific knowledge is a key driver of technological innovation, shaping
+    industrial development and policy decisions worldwide. Understanding how patents
+    incorporate scientific research is essential for assessing the role of academic
+    discoveries in technological progress. Non-Patent References (NPRs) provide a
+    useful indicator of this relationship by revealing the extent to which patents
+    draw upon scientific literature. Here, we show that reliance on scientific research
+    in patents varies significantly across regions. Oceania and Europe display stronger
+    engagement with scientific knowledge, while the Americas exhibit lower reliance.
+    Moreover, NPRs are more likely to be open access than the average scientific publication,
+    a trend that intensifies when Sci-Hub availability is considered. These results
+    highlight the transformative impact of Open Science on global innovation dynamics.
+    By facilitating broader access to research, Open Science strengthens the link
+    between academia and industry, underscoring the need for policies that promote
+    equitable and science-based innovation, particularly in developing regions.
+  link: http://arxiv.org/abs/2508.00829v1
+  published: '2025-05-21T14:02:44Z'

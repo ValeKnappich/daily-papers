@@ -1,0 +1,31 @@
+date: '2025-07-27'
+papers:
+- title: "Artificial Intelligence In Patent And Market Intelligence: A New\n  Paradigm\
+    \ For Technology Scouting"
+  authors:
+  - Manish Verma
+  - Vivek Sharma
+  - Vishal Singh
+  summary: This paper presents the development of an AI powered software platform
+    that leverages advanced large language models (LLMs) to transform technology scouting
+    and solution discovery in industrial R&D. Traditional approaches to solving complex
+    research and development challenges are often time consuming, manually driven,
+    and heavily dependent on domain specific expertise. These methods typically involve
+    navigating fragmented sources such as patent repositories, commercial product
+    catalogs, and competitor data, leading to inefficiencies and incomplete insights.
+    The proposed platform utilizes cutting edge LLM capabilities including semantic
+    understanding, contextual reasoning, and cross-domain knowledge extraction to
+    interpret problem statements and retrieve high-quality, sustainable solutions.
+    The system processes unstructured patent texts, such as claims and technical descriptions,
+    and systematically extracts potential innovations aligned with the given problem
+    context. These solutions are then algorithmically organized under standardized
+    technical categories and subcategories to ensure clarity and relevance across
+    interdisciplinary domains. In addition to patent analysis, the platform integrates
+    commercial intelligence by identifying validated market solutions and active organizations
+    addressing similar challenges. This combined insight sourced from both intellectual
+    property and real world product data enables R&D teams to assess not only technical
+    novelty but also feasibility, scalability, and sustainability. The result is a
+    comprehensive, AI driven scouting engine that reduces manual effort, accelerates
+    innovation cycles, and enhances decision making in complex R&D environments.
+  link: http://arxiv.org/abs/2507.20322v1
+  published: '2025-07-27T15:22:39Z'

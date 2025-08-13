@@ -1,2 +1,28 @@
 date: '2025-07-19'
-papers: []
+papers:
+- title: "Patents as Knowledge Artifacts: An Information Science Perspective on\n\
+    \  Global Innovation"
+  authors:
+  - M. S. Rajeevan
+  - B. Mini Devi
+  summary: In an age of fast-paced technological change, patents have evolved into
+    not only legal mechanisms of intellectual property, but also structured storage
+    containers of knowledge full of metadata, categories, and formal innovation. This
+    chapter proposes to reframe patents in the context of information science, by
+    focusing on patents as knowledge artifacts, and by seeing patents as fundamentally
+    tied to the global movement of scientific and technological knowledge. With a
+    focus on three areas, the inventions of AIs, biotech patents, and international
+    competition with patents, this work considers how new technologies are challenging
+    traditional notions of inventorship, access, and moral accountability.The chapter
+    provides a critical analysis of AI's implications for patent authorship and prior
+    art searches, ownership issues arising from proprietary claims in biotechnology
+    to ethical dilemmas, and the problem of using patents for strategic advantage
+    in a global context of innovation competition. In this analysis, the chapter identified
+    the importance of organizing information, creating metadata standards about originality,
+    implementing retrieval systems to access previous works, and ethical contemplation
+    about patenting unseen relationships in innovation ecosystems. Ultimately, the
+    chapter called for a collaborative, transparent, and ethically-based approach
+    in managing knowledge in the patenting environment highlighting the role for information
+    professionals and policy to contribute to access equity in innovation.
+  link: http://arxiv.org/abs/2508.00871v1
+  published: '2025-07-19T16:33:39Z'

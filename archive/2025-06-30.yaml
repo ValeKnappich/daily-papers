@@ -1,2 +1,26 @@
 date: '2025-06-30'
-papers: []
+papers:
+- title: "Intellectual Property Rights and Entrepreneurship in the NFT Ecosystem:\n\
+    \  Legal Frameworks, Business Models, and Innovation Opportunities"
+  authors:
+  - Pranav Darshan
+  - Rohan J S
+  - Raghuveer Rajesh
+  - Ruchitha M
+  - Sanika Kamath
+  - Manas M N
+  summary: Non Fungible Tokens have changed digital ownership and how creators earn
+    money. Between 2021 and 2024, the market value exceeded 40 billion. However, the
+    fast growth of the NFT ecosystem has revealed serious issues in managing intellectual
+    property rights. There is a lot of confusion about the difference between owning
+    an NFT and owning the copyright for the underlying content. This research looks
+    at the gap between traditional copyright laws and blockchain-based transactions.
+    We use a mixed methods approach to analyze this disconnect. We create a new IP
+    rights matrix that clearly shows how copyright law relates to NFT ownership structures.
+    Additionally, we include a business model taxonomy that sorts new commercial applications
+    by their IP risk and sustainability factors. By examining important legal cases,
+    smart contracts, and interviews with stakeholders, we find key problems in enforcing
+    laws across different regions, standardizing licenses, and assessing business
+    opportunities.
+  link: http://arxiv.org/abs/2507.00172v1
+  published: '2025-06-30T18:28:41Z'

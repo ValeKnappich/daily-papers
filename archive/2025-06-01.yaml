@@ -1,24 +1,2 @@
 date: '2025-06-01'
-papers:
-- title: "PreGIP: Watermarking the Pretraining of Graph Neural Networks for Deep\n\
-    \  Intellectual Property Protection"
-  authors:
-  - Enyan Dai
-  - Minhua Lin
-  - Suhang Wang
-  summary: Pretraining on Graph Neural Networks (GNNs) has shown great power in facilitating
-    various downstream tasks. As pretraining generally requires huge amount of data
-    and computational resources, the pretrained GNNs are high-value Intellectual Properties
-    (IP) of the legitimate owner. However, adversaries may illegally copy and deploy
-    the pretrained GNN models for their downstream tasks. Though initial efforts have
-    been made to watermark GNN classifiers for IP protection, these methods require
-    the target classification task for watermarking, and thus are not applicable to
-    self-supervised pretraining of GNN models. Hence, in this work, we propose a novel
-    framework named PreGIP to watermark the pretraining of GNN encoder for IP protection
-    while maintain the high-quality of the embedding space. PreGIP incorporates a
-    task-free watermarking loss to watermark the embedding space of pretrained GNN
-    encoder. A finetuning-resistant watermark injection is further deployed. Theoretical
-    analysis and extensive experiments show the effectiveness of {\method} in IP protection
-    and maintaining high-performance for downstream tasks.
-  link: http://arxiv.org/abs/2402.04435v2
-  published: '2024-02-06T22:13:49Z'
+papers: []

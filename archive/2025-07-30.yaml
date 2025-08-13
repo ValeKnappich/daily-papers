@@ -1,0 +1,25 @@
+date: '2025-07-30'
+papers:
+- title: 'PATENTWRITER: A Benchmarking Study for Patent Drafting with LLMs'
+  authors:
+  - Homaira Huda Shomee
+  - Suman Kalyan Maity
+  - Sourav Medya
+  summary: 'Large language models (LLMs) have emerged as transformative approaches
+    in several important fields. This paper aims for a paradigm shift for patent writing
+    by leveraging LLMs to overcome the tedious patent-filing process. In this work,
+    we present PATENTWRITER, the first unified benchmarking framework for evaluating
+    LLMs in patent abstract generation. Given the first claim of a patent, we evaluate
+    six leading LLMs -- including GPT-4 and LLaMA-3 -- under a consistent setup spanning
+    zero-shot, few-shot, and chain-of-thought prompting strategies to generate the
+    abstract of the patent. Our benchmark PATENTWRITER goes beyond surface-level evaluation:
+    we systematically assess the output quality using a comprehensive suite of metrics
+    -- standard NLP measures (e.g., BLEU, ROUGE, BERTScore), robustness under three
+    types of input perturbations, and applicability in two downstream patent classification
+    and retrieval tasks. We also conduct stylistic analysis to assess length, readability,
+    and tone. Experimental results show that modern LLMs can generate high-fidelity
+    and stylistically appropriate patent abstracts, often surpassing domain-specific
+    baselines. Our code and dataset are open-sourced to support reproducibility and
+    future research.'
+  link: http://arxiv.org/abs/2507.22387v1
+  published: '2025-07-30T05:17:35Z'

@@ -1,0 +1,27 @@
+date: '2025-07-24'
+papers:
+- title: "Beyond Patents: R&D, Capital, and the Productivity Puzzle in Early-Stage\n\
+    \  High-Tech Firms"
+  authors:
+  - Victor
+  - CHEN
+  summary: This study investigates the relationship between innovation activities
+    and firm-level productivity among early-stage high-tech startups in China. Using
+    a proprietary dataset encompassing patent records, R&D expenditures, capital valuation,
+    and firm performance from 2020 to 2024, we examine whether and how innovation,
+    measured by patents and R&D input, translates into economic output. Contrary to
+    established literature, we find that patent output does not significantly contribute
+    to either income or profit among the sampled firms. Further investigation reveals
+    that patents may primarily serve a signaling function to external investors and
+    policymakers, rather than reflecting true innovative productivity. In contrast,
+    R&D expenditure shows a consistent and positive association with firm performance.
+    Through mechanism analysis, we explore three channels (organizational environment,
+    employee quality, and policy-driven incentives) to explain the impact of R&D,
+    identifying capital inflow and valuation as key drivers of R&D investment. Finally,
+    heterogeneity analysis indicates that the effects of R&D are more pronounced in
+    sub-industries such as smart terminals and digital creativity, and for firms based
+    in Shenzhen. Our findings challenge the prevailing assumption that patent output
+    is a universal indicator of innovation success and underscore the context-dependent
+    nature of innovation-performance linkages in emerging markets.
+  link: http://arxiv.org/abs/2507.18227v1
+  published: '2025-07-24T09:19:22Z'

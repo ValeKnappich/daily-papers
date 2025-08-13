@@ -1,20 +1,2 @@
 date: '2025-05-14'
-papers:
-- title: The "strength" of patent systems
-  authors:
-  - Gaetan de Rassenfosse
-  summary: Patent systems vary widely in how rigorously they define and enforce inventors'
-    rights. On one hand, formal statutes ("law on the books") set the scope of what
-    can be patented and outline procedural safeguards. On the other hand, actual enforcement
-    ("law in practice") determines whether those rights hold up in practice. To capture
-    these dimensions, researchers have developed simple indices of legal provisions
-    and more nuanced proxies for enforcement effectiveness, along with metrics of
-    how applicant-friendly each office's procedures are. Comparative studies of "twin
-    patents" -- identical inventions filed in multiple jurisdictions -- reveal systematic
-    differences in grant rates and bar heights across major offices. By combining
-    these approaches, we gain a multifaceted view of patent-system strength that balances
-    statutory design, administrative practice, and actual enforcement. This perspective
-    is crucial for understanding how different regimes support innovation and shape
-    global knowledge flows.
-  link: http://arxiv.org/abs/2505.07121v2
-  published: '2025-05-11T21:08:27Z'
+papers: []
