@@ -2,7 +2,7 @@ name: Daily Papers Scheduler
 
 on:
   schedule:
-    - cron: '0 0 */1 * *' # Placeholder, will be set dynamically
+    - cron: '0 4 */1 * *' # 6am CEST
   push:
     branches:
       - main
