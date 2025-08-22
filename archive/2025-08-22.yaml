@@ -1,0 +1,29 @@
+date: '2025-08-22'
+papers:
+- title: "DesignCLIP: Multimodal Learning with CLIP for Design Patent\n  Understanding"
+  authors:
+  - Zhu Wang
+  - Homaira Huda Shomee
+  - Sathya N. Ravi
+  - Sourav Medya
+  summary: 'In the field of design patent analysis, traditional tasks such as patent
+    classification and patent image retrieval heavily depend on the image data. However,
+    patent images -- typically consisting of sketches with abstract and structural
+    elements of an invention -- often fall short in conveying comprehensive visual
+    context and semantic information. This inadequacy can lead to ambiguities in evaluation
+    during prior art searches. Recent advancements in vision-language models, such
+    as CLIP, offer promising opportunities for more reliable and accurate AI-driven
+    patent analysis. In this work, we leverage CLIP models to develop a unified framework
+    DesignCLIP for design patent applications with a large-scale dataset of U.S. design
+    patents. To address the unique characteristics of patent data, DesignCLIP incorporates
+    class-aware classification and contrastive learning, utilizing generated detailed
+    captions for patent images and multi-views image learning. We validate the effectiveness
+    of DesignCLIP across various downstream tasks, including patent classification
+    and patent retrieval. Additionally, we explore multimodal patent retrieval, which
+    provides the potential to enhance creativity and innovation in design by offering
+    more diverse sources of inspiration. Our experiments show that DesignCLIP consistently
+    outperforms baseline and SOTA models in the patent domain on all tasks. Our findings
+    underscore the promise of multimodal approaches in advancing patent analysis.
+    The codebase is available here: https://anonymous.4open.science/r/PATENTCLIP-4661/README.md.'
+  link: http://arxiv.org/abs/2508.15297v1
+  published: '2025-08-21T06:36:24Z'
