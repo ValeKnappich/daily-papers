@@ -1,0 +1,22 @@
+date: '2025-08-26'
+papers:
+- title: "Research on Evaluation Methods for Patent Novelty Search Systems and\n \
+    \ Empirical Analysis"
+  authors:
+  - Shu Zhang
+  - LiSha Zhang
+  - Kai Duan
+  - XinKai Sun
+  summary: Patent novelty search systems are critical to IP protection and innovation
+    assessment; their retrieval accuracy directly impacts patent quality. We propose
+    a comprehensive evaluation methodology that builds high-quality, reproducible
+    datasets from examiner citations and X-type citations extracted from technically
+    consistent family patents, and evaluates systems using invention descriptions
+    as inputs. Using Top-k Detection Rate and Recall as core metrics, we further conduct
+    multi-dimensional analyses by language, technical field (IPC), and filing jurisdiction.
+    Experiments show the method effectively exposes performance differences across
+    scenarios and offers actionable evidence for system improvement. The framework
+    is scalable and practical, providing a useful reference for development and optimization
+    of patent novelty search systems
+  link: http://arxiv.org/abs/2508.17782v1
+  published: '2025-08-25T08:24:04Z'
