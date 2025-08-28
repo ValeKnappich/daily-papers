@@ -1,0 +1,37 @@
+date: '2025-08-28'
+papers:
+- title: "Intellectual Property in Graph-Based Machine Learning as a Service:\n  Attacks\
+    \ and Defenses"
+  authors:
+  - Lincan Li
+  - Bolin Shen
+  - Chenxi Zhao
+  - Yuxiang Sun
+  - Kaixiang Zhao
+  - Shirui Pan
+  - Yushun Dong
+  summary: 'Graph-structured data, which captures non-Euclidean relationships and
+    interactions between entities, is growing in scale and complexity. As a result,
+    training state-of-the-art graph machine learning (GML) models have become increasingly
+    resource-intensive, turning these models and data into invaluable Intellectual
+    Property (IP). To address the resource-intensive nature of model training, graph-based
+    Machine-Learning-as-a-Service (GMLaaS) has emerged as an efficient solution by
+    leveraging third-party cloud services for model development and management. However,
+    deploying such models in GMLaaS also exposes them to potential threats from attackers.
+    Specifically, while the APIs within a GMLaaS system provide interfaces for users
+    to query the model and receive outputs, they also allow attackers to exploit and
+    steal model functionalities or sensitive training data, posing severe threats
+    to the safety of these GML models and the underlying graph data. To address these
+    challenges, this survey systematically introduces the first taxonomy of threats
+    and defenses at the level of both GML model and graph-structured data. Such a
+    tailored taxonomy facilitates an in-depth understanding of GML IP protection.
+    Furthermore, we present a systematic evaluation framework to assess the effectiveness
+    of IP protection methods, introduce a curated set of benchmark datasets across
+    various domains, and discuss their application scopes and future challenges. Finally,
+    we establish an open-sourced versatile library named PyGIP, which evaluates various
+    attack and defense techniques in GMLaaS scenarios and facilitates the implementation
+    of existing benchmark methods. The library resource can be accessed at: https://labrai.github.io/PyGIP.
+    We believe this survey will play a fundamental role in intellectual property protection
+    for GML and provide practical recipes for the GML community.'
+  link: http://arxiv.org/abs/2508.19641v1
+  published: '2025-08-27T07:37:52Z'
