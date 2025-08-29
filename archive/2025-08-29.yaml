@@ -1,0 +1,13 @@
+date: '2025-08-29'
+papers:
+- title: Patent citations and patent importance
+  authors:
+  - Gaetan de Rassenfosse
+  summary: This article reviews the empirical evidence on the use of patent citations
+    as a proxy for invention importance. It distinguishes between technical merit,
+    private economic value, and social value, and surveys validation studies using
+    expert ratings, market data, renewal records, and compensation reports. The findings
+    confirm that while the count of citations is positively associated with various
+    dimensions of value, it remains a noisy indicator -- correlated but far from definitive.
+  link: http://arxiv.org/abs/2508.20503v1
+  published: '2025-08-28T07:42:26Z'
