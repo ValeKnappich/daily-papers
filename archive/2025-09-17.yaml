@@ -1,0 +1,25 @@
+date: '2025-09-17'
+papers:
+- title: 'PatentScore: Multi-dimensional Evaluation of LLM-Generated Patent Claims'
+  authors:
+  - Yongmin Yoo
+  - Qiongkai Xu
+  - Longbing Cao
+  summary: High-stakes texts such as patent claims, medical records, and technical
+    reports are structurally complex and demand a high degree of reliability and precision.
+    While large language models (LLMs) have recently been applied to automate their
+    generation in high-stakes domains, reliably evaluating such outputs remains a
+    major challenge. Conventional natural language generation (NLG) metrics are effective
+    for generic documents but fail to capture the structural and legal characteristics
+    essential to evaluating complex high-stakes documents. To address this gap, we
+    propose PatentScore, a multi-dimensional evaluation framework specifically designed
+    for one of the most intricate and rigorous domains, patent claims. PatentScore
+    integrates hierarchical decomposition of claim elements, validation patterns grounded
+    in legal and technical standards, and scoring across structural, semantic, and
+    legal dimensions. In experiments on our dataset which consists of 400 Claim1,
+    PatentScore achieved the highest correlation with expert annotations ($r = 0.819$),
+    significantly outperforming widely used NLG metrics. This work establishes a new
+    standard for evaluating LLM-generated patent claims, providing a solid foundation
+    for research on patent generation and validation.
+  link: http://arxiv.org/abs/2505.19345v2
+  published: '2025-05-25T22:20:11Z'
