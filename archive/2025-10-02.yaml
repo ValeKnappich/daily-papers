@@ -1,0 +1,25 @@
+date: '2025-10-02'
+papers:
+- title: "PaECTER: Patent-level Representation Learning using Citation-informed\n\
+    \  Transformers"
+  authors:
+  - Mainak Ghosh
+  - Michael E. Rose
+  - Sebastian Erhardt
+  - Erik Buunk
+  - Dietmar Harhoff
+  summary: PaECTER is an open-source document-level encoder specific for patents.
+    We fine-tune BERT for Patents with examiner-added citation information to generate
+    numerical representations for patent documents. PaECTER performs better in similarity
+    tasks than current state-of-the-art models used in the patent domain. More specifically,
+    our model outperforms the patent specific pre-trained language model (BERT for
+    Patents) and general-purpose text embedding models (e.g., E5, GTE, and BGE) on
+    our patent citation prediction test dataset on different rank evaluation metrics.
+    PaECTER predicts at least one most similar patent at a rank of 1.32 on average
+    when compared against 25 irrelevant patents. Numerical representations generated
+    by PaECTER from patent text can be used for downstream tasks such as classification,
+    tracing knowledge flows, or semantic similarity search. Semantic similarity search
+    is especially relevant in the context of prior art search for both inventors and
+    patent examiners.
+  link: http://arxiv.org/abs/2402.19411v2
+  published: '2024-02-29T18:09:03Z'
