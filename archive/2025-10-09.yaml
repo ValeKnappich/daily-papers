@@ -1,0 +1,26 @@
+date: '2025-10-09'
+papers:
+- title: 'Reasoning for Hierarchical Text Classification: The Case of Patents'
+  authors:
+  - Lekang Jiang
+  - Wenjun Sun
+  - Stephan Goetz
+  summary: 'Hierarchical text classification (HTC) assigns documents to multiple levels
+    of a pre-defined taxonomy. Automated patent subject classification represents
+    one of the hardest HTC scenarios because of domain knowledge difficulty and a
+    huge number of labels. Prior approaches only output a flat label set, which offers
+    little insight into the reason behind predictions. Therefore, we propose Reasoning
+    for Hierarchical Classification (RHC), a novel framework that reformulates HTC
+    as a step-by-step reasoning task to sequentially deduce hierarchical labels. RHC
+    trains large language models (LLMs) in two stages: a cold-start stage that aligns
+    outputs with chain-of-thought (CoT) reasoning format and a reinforcement learning
+    (RL) stage to enhance multi-step reasoning ability. RHC demonstrates four advantages
+    in our experiments. (1) Effectiveness: RHC surpasses previous baselines and outperforms
+    the supervised fine-tuning counterparts by approximately 3% in accuracy and macro
+    F1. (2) Explainability: RHC produces natural-language justifications before prediction
+    to facilitate human inspection. (3) Scalability: RHC scales favorably with model
+    size with larger gains compared to standard fine-tuning. (4) Applicability: Beyond
+    patents, we further demonstrate that RHC achieves state-of-the-art performance
+    on other widely used HTC benchmarks, which highlights its broad applicability.'
+  link: http://arxiv.org/abs/2510.07167v1
+  published: '2025-10-08T16:06:04Z'
