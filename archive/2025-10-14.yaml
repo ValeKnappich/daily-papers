@@ -1,0 +1,28 @@
+date: '2025-10-14'
+papers:
+- title: "Self-Filtered Distillation with LLMs-generated Trust Indicators for\n  Reliable\
+    \ Patent Classification"
+  authors:
+  - Yongmin Yoo
+  - Xu Zhang
+  - Longbing Cao
+  summary: 'Large language models (LLMs) increasingly generate natural language rationales
+    to enhance interpretability, but these often contain logical errors, label mismatches,
+    and domain-specific misalignments. Directly using such rationales as supervision
+    risks propagating noise and undermining training stability. To address this challenge,
+    we introduce Self-Filtered Distillation, a framework specifically tailored for
+    patent classification, which treats LLM-generated rationales as trust signals
+    rather than ground-truth supervision. The framework employs selective distillation
+    guided by three unsupervised trust metrics: (1) Self-Consistency, which measures
+    the stability of LLM-generated rationales across multiple generations; (2) Class
+    Entailment Alignment, which assesses semantic coherence with patent-specific class
+    definitions; and (3) LLM Agreement Scoring, which validates rationale-label plausibility.
+    These metrics are integrated into a unified trust score that primarily weights
+    training samples while optionally filtering out extremely low-trust cases, enabling
+    reasoning-aware supervision. Experiments on the USPTO-2M dataset, a widely used
+    benchmark for patent classification, show that our method outperforms label-based
+    learning and conventional distillation in accuracy, stability, and interpretability,
+    establishing a reliable paradigm for leveraging reasoning-aware trust indicators
+    in patent analytics.'
+  link: http://arxiv.org/abs/2510.05431v2
+  published: '2025-10-06T22:50:01Z'
