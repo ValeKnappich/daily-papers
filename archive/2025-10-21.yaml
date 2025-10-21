@@ -1,0 +1,21 @@
+date: '2025-10-21'
+papers:
+- title: "Plasmonic Structures, Devices, and Integrated Applications A Patent\n  Analysis"
+  authors:
+  - Mahdi Javidnasab
+  - Sajjad Hosseinzade
+  summary: This review systematically analyzes patent disclosures regarding plasmonic
+    structures, devices, and integrated applications, highlighting the technology's
+    capability to confine and manipulate electromagnetic energy at the nanoscale.
+    Core materials rely on highly conductive noble metals (Gold, Silver), alongside
+    innovative alternatives like Transparent Conducting Oxides (TCOs), Graphene, and
+    2D materials. These materials are engineered into diverse nanostructures that
+    exploit Surface Plasmon Resonance (SPR) and Localized Surface Plasmon Resonance
+    (LSPR). LSPR generates intense electromagnetic "hot spots" necessary for signal
+    amplification (SERS) and provides extreme refractive index sensitivity for label-free
+    detection. Key device elements include subwavelength plasmonic waveguides (hybrid
+    and slot types) for optical signal routing. Dynamic control is achieved through
+    active tuning mechanisms, utilizing electrical gating of charge carrier density
+    (e.g., TCOs, Graphene) and solid-state phase change materials (e.g., VO2).
+  link: http://arxiv.org/abs/2510.17537v1
+  published: '2025-10-20T13:41:45Z'
