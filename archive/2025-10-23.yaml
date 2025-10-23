@@ -1,0 +1,33 @@
+date: '2025-10-23'
+papers:
+- title: "AegisRF: Adversarial Perturbations Guided with Sensitivity for\n  Protecting\
+    \ Intellectual Property of Neural Radiance Fields"
+  authors:
+  - Woo Jae Kim
+  - Kyu Beom Han
+  - Yoonki Cho
+  - Youngju Na
+  - Junsik Jung
+  - Sooel Son
+  - Sung-eui Yoon
+  summary: As Neural Radiance Fields (NeRFs) have emerged as a powerful tool for 3D
+    scene representation and novel view synthesis, protecting their intellectual property
+    (IP) from unauthorized use is becoming increasingly crucial. In this work, we
+    aim to protect the IP of NeRFs by injecting adversarial perturbations that disrupt
+    their unauthorized applications. However, perturbing the 3D geometry of NeRFs
+    can easily deform the underlying scene structure and thus substantially degrade
+    the rendering quality, which has led existing attempts to avoid geometric perturbations
+    or restrict them to explicit spaces like meshes. To overcome this limitation,
+    we introduce a learnable sensitivity to quantify the spatially varying impact
+    of geometric perturbations on rendering quality. Building upon this, we propose
+    AegisRF, a novel framework that consists of a Perturbation Field, which injects
+    adversarial perturbations into the pre-rendering outputs (color and volume density)
+    of NeRF models to fool an unauthorized downstream target model, and a Sensitivity
+    Field, which learns the sensitivity to adaptively constrain geometric perturbations,
+    preserving rendering quality while disrupting unauthorized use. Our experimental
+    evaluations demonstrate the generalized applicability of AegisRF across diverse
+    downstream tasks and modalities, including multi-view image classification and
+    voxel-based 3D localization, while maintaining high visual fidelity. Codes are
+    available at https://github.com/wkim97/AegisRF.
+  link: http://arxiv.org/abs/2510.19371v1
+  published: '2025-10-22T08:45:42Z'
