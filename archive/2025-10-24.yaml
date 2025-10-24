@@ -1,0 +1,24 @@
+date: '2025-10-24'
+papers:
+- title: "FMI-Based Distributed Co-Simulation with Enhanced Security and\n  Intellectual\
+    \ Property Safeguards"
+  authors:
+  - Santiago Gil
+  - Ecem E. Baş
+  - Christian D. Jensen
+  - Sebastian Engelsgaard
+  - Giuseppe Abbiati
+  - Cláudio Gomes
+  summary: Distributed co-simulation plays a key role in enabling collaborative modeling
+    and simulation by different stakeholders while protecting their Intellectual Property
+    (IP). Although IP protection is provided implicitly by co-simulation, there is
+    no consensus in the guidelines to conduct distributed co-simulation of continuous-time
+    or hybrid systems with no exposure to potential hacking attacks. We propose an
+    approach for distributed co-simulation on top of UniFMU with enhanced cybersecurity
+    and IP protection mechanisms, ensuring that the connection is initiated by the
+    client and the models and binaries live on trusted platforms. We showcase the
+    functionality of this approach using two co-simulation demos in four different
+    network settings and analyze the trade-off between IP-protected distribution and
+    performance efficiency in these settings.
+  link: http://arxiv.org/abs/2510.20403v1
+  published: '2025-10-23T10:10:08Z'
