@@ -1,0 +1,27 @@
+date: '2025-10-30'
+papers:
+- title: "Towards Automated Quality Assurance of Patent Specifications: A\n  Multi-Dimensional\
+    \ LLM Framework"
+  authors:
+  - Yuqian Chai
+  - Chaochao Wang
+  - Weilei Wang
+  summary: Despite the surge in patent applications and emergence of AI drafting tools,
+    systematic evaluation of patent content quality has received limited research
+    attention. To address this gap, We propose to evaluate patents using regulatory
+    compliance, technical coherence, and figure-reference consistency detection modules,
+    and then generate improvement suggestions via an integration module. The framework
+    is validated on a comprehensive dataset comprising 80 human-authored and 80 AI-generated
+    patents from two patent drafting tools. Experimental results show balanced accuracies
+    of 99.74\%, 82.12\%, and 91.2\% respectively across the three detection modules
+    when validated against expert annotations. Additional analysis was conducted to
+    examine defect distributions across patent sections, technical domains, and authoring
+    sources. Section-based analysis indicates that figure-text consistency and technical
+    detail precision require particular attention. Mechanical Engineering and Construction
+    show more claim-specification inconsistencies due to complex technical documentation
+    requirements. AI-generated patents show a significant gap compared to human-authored
+    ones. While human-authored patents primarily contain surface-level errors like
+    typos, AI-generated patents exhibit more structural defects in figure-text alignment
+    and cross-references.
+  link: http://arxiv.org/abs/2510.25402v1
+  published: '2025-10-29T11:20:18Z'
