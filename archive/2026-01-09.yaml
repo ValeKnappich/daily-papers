@@ -1,0 +1,29 @@
+date: '2026-01-09'
+papers:
+- title: 'PILOT-Bench: A Benchmark for Legal Reasoning in the Patent Domain with IRAC-Aligned
+    Classification Tasks'
+  authors:
+  - Yehoon Jang
+  - Chaewon Lee
+  - Hyun-seok Min
+  - Sungchul Choi
+  summary: 'The Patent Trial and Appeal Board (PTAB) of the USPTO adjudicates thousands
+    of ex parte appeals each year, requiring the integration of technical understanding
+    and legal reasoning. While large language models (LLMs) are increasingly applied
+    in patent and legal practice, their use has remained limited to lightweight tasks,
+    with no established means of systematically evaluating their capacity for structured
+    legal reasoning in the patent domain. In this work, we introduce PILOT-Bench,
+    the first PTAB-centric benchmark that aligns PTAB decisions with USPTO patent
+    data at the case-level and formalizes three IRAC-aligned classification tasks:
+    Issue Type, Board Authorities, and Subdecision. We evaluate a diverse set of closed-source
+    (commercial) and open-source LLMs and conduct analyses across multiple perspectives,
+    including input-variation settings, model families, and error tendencies. Notably,
+    on the Issue Type task, closed-source models consistently exceed 0.75 in Micro-F1
+    score, whereas the strongest open-source model (Qwen-8B) achieves performance
+    around 0.56, highlighting a substantial gap in reasoning capabilities. PILOT-Bench
+    establishes a foundation for the systematic evaluation of patent-domain legal
+    reasoning and points toward future directions for improving LLMs through dataset
+    design and model alignment. All data, code, and benchmark resources are available
+    at https://github.com/TeamLab/pilot-bench.'
+  link: https://arxiv.org/abs/2601.04758v1
+  published: '2026-01-08T09:26:05Z'
