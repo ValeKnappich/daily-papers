@@ -1,0 +1,27 @@
+date: '2026-01-14'
+papers:
+- title: 'DNF: Dual-Layer Nested Fingerprinting for Large Language Model Intellectual
+    Property Protection'
+  authors:
+  - Zhenhua Xu
+  - Yiran Zhao
+  - Mengting Zhong
+  - Dezhang Kong
+  - Changting Lin
+  - Tong Qiao
+  - Meng Han
+  summary: The rapid growth of large language models raises pressing concerns about
+    intellectual property protection under black-box deployment. Existing backdoor-based
+    fingerprints either rely on rare tokens -- leading to high-perplexity inputs susceptible
+    to filtering -- or use fixed trigger-response mappings that are brittle to leakage
+    and post-hoc adaptation. We propose \textsc{Dual-Layer Nested Fingerprinting}
+    (DNF), a black-box method that embeds a hierarchical backdoor by coupling domain-specific
+    stylistic cues with implicit semantic triggers. Across Mistral-7B, LLaMA-3-8B-Instruct,
+    and Falcon3-7B-Instruct, DNF achieves perfect fingerprint activation while preserving
+    downstream utility. Compared with existing methods, it uses lower-perplexity triggers,
+    remains undetectable under fingerprint detection attacks, and is relatively robust
+    to incremental fine-tuning and model merging. These results position DNF as a
+    practical, stealthy, and resilient solution for LLM ownership verification and
+    intellectual property protection.
+  link: https://arxiv.org/abs/2601.08223v1
+  published: '2026-01-13T05:05:37Z'
