@@ -1,0 +1,33 @@
+date: '2026-01-27'
+papers:
+- title: 'Beyond Pairwise Comparisons: A Distributional Test of Distinctiveness for
+    Machine-Generated Works in Intellectual Property Law'
+  authors:
+  - Anirban Mukherjee
+  - Hannah Hanwen Chang
+  summary: 'Key doctrines, including novelty (patent), originality (copyright), and
+    distinctiveness (trademark), turn on a shared empirical question: whether a body
+    of work is meaningfully distinct from a relevant reference class. Yet analyses
+    typically operationalize this set-level inquiry using item-level evidence: pairwise
+    comparisons among exemplars. That unit-of-analysis mismatch may be manageable
+    for finite corpora of human-created works, where it can be bridged by ad hoc aggregations.
+    But it becomes acute for machine-generated works, where the object of evaluation
+    is not a fixed set of works but a generative process with an effectively unbounded
+    output space. We propose a distributional alternative: a two-sample test based
+    on maximum mean discrepancy computed on semantic embeddings to determine if two
+    creative processes-whether human or machine-produce statistically distinguishable
+    output distributions. The test requires no task-specific training-obviating the
+    need for discovery of proprietary training data to characterize the generative
+    process-and is sample-efficient, often detecting differences with as few as 5-10
+    images and 7-20 texts. We validate the framework across three domains: handwritten
+    digits (controlled images), patent abstracts (text), and AI-generated art (real-world
+    images). We reveal a perceptual paradox: even when human evaluators distinguish
+    AI outputs from human-created art with only about 58% accuracy, our method detects
+    distributional distinctiveness. Our results present evidence contrary to the view
+    that generative models act as mere regurgitators of training data. Rather than
+    producing outputs statistically indistinguishable from a human baseline-as simple
+    regurgitation would predict-they produce outputs that are semantically human-like
+    yet stochastically distinct, suggesting their dominant function is as a semantic
+    interpolator within a learned latent space.'
+  link: https://arxiv.org/abs/2601.18156v1
+  published: '2026-01-26T05:20:33Z'
