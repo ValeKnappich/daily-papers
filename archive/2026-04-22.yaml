@@ -1,0 +1,13 @@
+date: '2026-04-22'
+papers:
+- title: Minimizing Intellectual Property Risks via Self-Stabilizing Algorithms
+  authors:
+  - Ken Kennedy
+  - Iman Evazzade
+  summary: In this paper, we examine the use of self-stabilizing algorithms, operating
+    in a hierarchical manner, to determine intellectual property risks at a macro
+    level. We are both interested in finding a solution that will support all defined
+    intellectual property dimensions as well as suboptimal solutions in order to minimize
+    risk.
+  link: https://arxiv.org/abs/2604.19454v1
+  published: '2026-04-21T13:33:54Z'
