@@ -1,0 +1,27 @@
+date: '2026-05-12'
+papers:
+- title: 'PHAGE: Patent Heterogeneous Attention-Guided Graph Encoder for Representation
+    Learning'
+  authors:
+  - Yongmin Yoo
+  - Qiongkai Xu
+  - Zhangkai Wu
+  - Longbing Cao
+  summary: 'Patent claims form a directed dependency structure in which dependent
+    claims inherit and refine the scope of earlier claims; however, existing patent
+    encoders linearize claims as text and discard this hierarchy. Directly encoding
+    this structure into self-attention poses two challenges: claim dependencies mix
+    relation types that differ in semantics and extraction reliability, and the dependency
+    graph is defined over claims while Transformers attend over tokens. PHAGE addresses
+    the first challenge through a deterministic graph construction pipeline that separates
+    near-deterministic legal citations from noisier rule-based technical relations,
+    preserving type distinctions as heterogeneous edges. It addresses the second through
+    a connectivity mask and learnable relation-aware biases that lift claim-level
+    topology into token-level attention, allowing the encoder to differentially weight
+    each relation type. A dual-granularity contrastive objective then aligns representations
+    with both inter-patent taxonomy and intra-patent topology. PHAGE outperforms all
+    baselines on classification, retrieval, and clustering, showing that intra-document
+    claim topology is a stronger inductive bias than inter-document structure and
+    that this bias persists in the encoder weights after training.'
+  link: https://arxiv.org/abs/2605.10073v1
+  published: '2026-05-11T06:54:44Z'
