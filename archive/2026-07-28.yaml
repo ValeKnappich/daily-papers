@@ -1,0 +1,26 @@
+date: '2026-07-28'
+papers:
+- title: Pointer-Augmented Autoregressive Generation of Patent Claims with Joint Topology
+    and Content Decoding
+  authors:
+  - Yongmin Yoo
+  - Zhangkai Wu
+  - Longbing Cao
+  summary: 'Autoregressive decoders emit flat token sequences and cannot enforce hierarchical
+    constraints across output segments, a limitation that becomes acute in patent
+    claim generation, where a claim set forms a dependency forest whose scope must
+    narrow monotonically with depth. Topology and content are mutually dependent:
+    a dependent claim''s wording must reflect its parent''s scope, yet the parent
+    must be chosen before that wording exists, so neither post-hoc parsing nor grammar-constrained
+    decoding suffices. We propose SPG (Structure-aware Patent Generation), which predicts
+    topology inside the autoregressive pass. A pointer head selects each dependent
+    claim''s parent, and its gradients, together with a depth-adaptive scope regularizer,
+    reshape the shared decoder''s representations during training. A second stage
+    then applies a violation-weighted preference objective over self-generated deficient
+    candidates, supplying the negative signal that granted-patent corpora lack. On
+    HUPD-DCG, SPG on Llama-3-8B-Instruct recovers 79.0\% of gold parent links, a quantity
+    its training reward never supervises, and raises antecedent consistency from 0.292
+    to 0.478 over a supervised baseline of equal scale, with expert evaluation corroborating
+    these gains.'
+  link: https://arxiv.org/abs/2607.24040v1
+  published: '2026-07-27T06:27:14Z'
