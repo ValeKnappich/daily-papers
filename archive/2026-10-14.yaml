@@ -1,0 +1,28 @@
+date: '2026-10-14'
+papers:
+- title: Interpreting Paper-to-Patent Citations in AI-Related PMC Articles
+  authors:
+  - Haowei Li
+  - Yi Bu
+  summary: Paper-to-patent citations connect scientific and technological documents,
+    but their interpretability depends on how patents are used in the citing text.
+    This study examines citation contexts and paper-level outcome associations in
+    AI-related articles in PubMed Central (PMC). Screening 189,073 articles identified
+    746 with explicitly tagged patent references (0.395%), including 713 with 1,544
+    identifiable in-text patent-citation instances. Three large language models classified
+    these instances by represented content, motivation, textual position, and evaluative
+    stance. Regression models examined associations among these dimensions, and propensity-score-matched
+    regressions compared patent-citing papers with XML-screened controls. Background-oriented
+    citations were predominantly neutral and introductory, whereas adoption-oriented
+    citations were more closely associated with methodological positions and supportive
+    evaluations. These patterns suggest heuristic configurations of contextualization,
+    operationalization, and problematization, although classification overlap and
+    exclusion of rare categories limit their interpretation. In matched samples, the
+    patent-citing indicator was associated with lower scholarly-citation measures
+    and more citations received from patents. These associations are observational,
+    not causal. Together, these findings show that paper-to-patent citations encode
+    heterogeneous forms of engagement with patented technology and should be interpreted
+    as selective bibliographic signals rather than direct indicators of technology-to-science
+    knowledge transfer or research value.
+  link: https://arxiv.org/abs/2610.18109v1
+  published: '2026-10-13T10:23:02Z'
